@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SDG 8 - Decent Work & Economic Growth</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- HEADER -->
+  <header class="bg-red-800 text-white py-4 shadow-md">
+    <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Sustainable_Development_Goal_08DecentWorkEconomicGrowth.svg/120px-Sustainable_Development_Goal_08DecentWorkEconomicGrowth.svg.png"
+             alt="SDG 8 Logo" class="h-10"/>
+        <h1 class="text-2xl font-bold">Decent Work & Economic Growth</h1>
+      </div>
+      <nav class="space-x-6 hidden md:block">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#goals" class="hover:underline">Goals</a>
+        <a href="#gallery" class="hover:underline">Gallery</a>
+        <a href="#resources" class="hover:underline">Resources</a>
+        <a href="#stats" class="hover:underline">Stats</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative bg-white">
+    <div class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-4xl font-bold text-red-800 border-b-4 border-red-800 inline-block pb-2">Sustainable Development Goal 8</h2>
+        <p class="mt-4 text-gray-700 text-lg bg-gray-100 p-6 rounded-lg shadow-md">
+          Decent work is not just about employment—it's about dignity, equal pay, safety, and sustainability. With over 170 million people unemployed globally, Goal 8 promotes inclusive and sustainable economic growth, employment, and decent work for all.
+        </p>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1000&q=80"
+             alt="Teamwork" class="rounded-lg shadow-md"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-12 bg-gray-100">
+    <div class="max-w-4xl mx-auto px-6 text-center bg-white p-8 rounded-lg shadow-md border-l-4 border-red-800">
+      <h3 class="text-2xl font-bold text-red-800">About SDG 8</h3>
+      <p class="mt-4 text-gray-700">
+        SDG 8 aims to promote inclusive and sustainable economic growth, employment, and decent work for all. By investing in skills, innovation, and equal opportunities, societies can build stronger and fairer economies.
+      </p>
+    </div>
+  </section>
+
+  <!-- GOALS -->
+  <section id="goals" class="py-12 bg-white">
+    <div class="max-w-6xl mx-auto px-6 bg-gray-50 p-8 rounded-lg shadow-md border-l-4 border-red-800">
+      <h3 class="text-2xl font-bold text-red-800 text-center">Key Goals</h3>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="p-6 bg-white rounded-lg shadow-md border border-gray-200 text-center">
+          <img src="https://source.unsplash.com/400x300/?jobs,work" alt="Jobs" class="rounded-md mb-4"/>
+          <h4 class="font-semibold text-red-800">Decent Employment</h4>
+          <p class="mt-2 text-sm text-gray-600">Create safe, fair, and equal job opportunities for everyone.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow-md border border-gray-200 text-center">
+          <img src="https://source.unsplash.com/400x300/?economy,growth" alt="Economy" class="rounded-md mb-4"/>
+          <h4 class="font-semibold text-red-800">Inclusive Growth</h4>
+          <p class="mt-2 text-sm text-gray-600">Ensure economic growth benefits all sectors of society.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow-md border border-gray-200 text-center">
+          <img src="https://source.unsplash.com/400x300/?innovation,technology" alt="Innovation" class="rounded-md mb-4"/>
+          <h4 class="font-semibold text-red-800">Innovation</h4>
+          <p class="mt-2 text-sm text-gray-600">Encourage entrepreneurship and technological progress.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="py-12 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6 bg-white p-8 rounded-lg shadow-md border-l-4 border-red-800">
+      <h3 class="text-2xl font-bold text-red-800 text-center">Gallery</h3>
+      <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="https://source.unsplash.com/600x400/?workers" alt="workers" class="rounded-lg shadow-md object-cover"/>
+        <img src="https://source.unsplash.com/600x400/?factory" alt="factory" class="rounded-lg shadow-md object-cover"/>
+        <img src="https://source.unsplash.com/600x400/?startup" alt="startup" class="rounded-lg shadow-md object-cover"/>
+        <img src="https://source.unsplash.com/600x400/?sustainability" alt="sustainability" class="rounded-lg shadow-md object-cover"/>
+        <img src="https://source.unsplash.com/600x400/?teamwork" alt="teamwork" class="rounded-lg shadow-md object-cover"/>
+        <img src="https://source.unsplash.com/600x400/?education" alt="education" class="rounded-lg shadow-md object-cover"/>
+        <img src="https://source.unsplash.com/600x400/?skills" alt="skills" class="rounded-lg shadow-md object-cover"/>
+        <img src="https://source.unsplash.com/600x400/?innovation" alt="innovation" class="rounded-lg shadow-md object-cover"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESOURCES -->
+  <section id="resources" class="py-12 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center bg-gray-50 p-8 rounded-lg shadow-md border-l-4 border-red-800">
+      <h3 class="text-2xl font-bold text-red-800">Resources</h3>
+      <p class="mt-4 text-gray-700">Download the official SDG 8 fact sheet to learn more about global targets and progress.</p>
+      <a href="https://sdgs.un.org/sites/default/files/2023-07/SDG_8_Fact_Sheet_2023.pdf"
+         target="_blank"
+         class="inline-block mt-6 px-6 py-3 bg-red-800 text-white rounded-lg shadow-md">
+        📄 Download Fact Sheet
+      </a>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section id="stats" class="py-12 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6 text-center bg-white p-8 rounded-lg shadow-md border-l-4 border-red-800">
+      <h3 class="text-2xl font-bold text-red-800">Global Employment & Growth Stats</h3>
+      <p class="mt-4 text-gray-700">Explore interactive data on employment sectors and recent global GDP growth rates.</p>
+      <div class="mt-10 grid md:grid-cols-2 gap-10">
+        <!-- Pie Chart -->
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200">
+          <h4 class="font-semibold mb-4 text-red-800">Employment by Sector (%)</h4>
+          <canvas id="employmentChart"></canvas>
+        </div>
+        <!-- Bar Chart -->
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200">
+          <h4 class="font-semibold mb-4 text-red-800">Global GDP Growth (%)</h4>
+          <canvas id="gdpChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-12 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center bg-gray-50 p-8 rounded-lg shadow-md border-l-4 border-red-800">
+      <h3 class="text-2xl font-bold text-red-800">Get Involved</h3>
+      <p class="mt-4 text-gray-700">Join us in supporting initiatives that promote Decent Work and Economic Growth globally.</p>
+      <a href="mailto:info@sdg8.org"
+         class="inline-block mt-6 px-6 py-3 bg-red-800 text-white rounded-lg shadow-md">
+        Contact Us
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-red-800 text-white py-6 mt-8">
+    <div class="max-w-6xl mx-auto px-6 text-center text-sm">© 2025 Decent Work & Economic Growth — All Rights Reserved</div>
+  </footer>
+
+  <!-- CHART.JS SCRIPT -->
+  <script>
+    // Employment by sector
+    const ctx1 = document.getElementById('employmentChart').getContext('2d');
+    new Chart(ctx1, {
+      type: 'pie',
+      data: {
+        labels: ['Agriculture', 'Industry', 'Services'],
+        datasets: [{
+          data: [27, 23, 50],
+          backgroundColor: ['#A21942', '#E57A9C', '#F2C4D3']
+        }]
+      }
+    });
+
+    // GDP growth
+    const ctx2 = document.getElementById('gdpChart').getContext('2d');
+    new Chart(ctx2, {
+      type: 'bar',
+      data: {
+        labels: ['2019', '2020', '2021', '2022', '2023'],
+        datasets: [{
+          label: 'GDP Growth (%)',
+          data: [2.8, -3.1, 5.9, 3.4, 2.9],
+          backgroundColor: '#A21942'
+        }]
+      },
+      options: {
+        scales: {
+          y: { beginAtZero: true }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
